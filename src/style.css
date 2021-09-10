@@ -1,0 +1,39 @@
+h1,
+p {
+  font-family: Lato;
+}
+
+.star-icon {
+  color: #000;
+  font-size: 40px;
+}
+
+.widget-container {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.star-container {
+  position: relative;
+}
+
+.fill {
+  color: rgb(255, 230, 0);
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.empty {
+  z-index: 2;
+}
+
+.cover {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  background-color: #fff;
+}
